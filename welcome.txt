@@ -1,3 +1,7 @@
 Good Morning,
 Hi, welcome to GITHUB
+<<<<<<< HEAD
 hello Siva
+=======
+hello Priyanka
+>>>>>>> 31625944e9e943234b78e2f2d90375054a3ca690
