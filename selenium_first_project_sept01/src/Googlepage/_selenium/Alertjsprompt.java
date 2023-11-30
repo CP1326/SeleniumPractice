@@ -15,7 +15,7 @@ public class Alertjsprompt {
 		Alert a3=driver.switchTo().alert();
 		
 		String s =a3.getText();
-		a3.sendKeys("hello chandi priyanka ");
+		a3.sendKeys("hello chandi priyanka, welcome to github ");
 		a3.accept();
 		
 
