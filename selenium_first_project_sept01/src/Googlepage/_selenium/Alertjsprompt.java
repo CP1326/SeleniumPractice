@@ -11,14 +11,15 @@ public class Alertjsprompt {
 	{
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
-		driver.findElement(By.xpath("button[@onclick='jsPrompt()']")).click();
+		driver.findElement(By.xpath("//button[@onclick='jsPrompt()']")).click();
 		Alert a3=driver.switchTo().alert();
 		
-		String s =a3.getText();
+		System.out.println(a3.getText());
 		a3.sendKeys("hello chandi priyanka, welcome to github ");
 		a3.accept();
+		if (driver.getPageSource().contains("you entered:hello chandi priyanka ,welcome to github"));
 		
-
+		System.out.println("hello chandi priyanka");
 
 	}
 
